@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="nombre_usuario">Nombre de Usuario:</label>
+            <input type="text" id="nombre_usuario" name="nombre_usuario" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+            <label>Género:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino" required>
+            <label for="femenino">Femenino</label>
+
+            <label for="recomendado_por">Recomendado por:</label>
+            <input type="text" id="recomendado_por" name="recomendado_por">
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario"></textarea>
+
+            <input type="checkbox" id="acepto_condiciones" name="acepto_condiciones" required>
+            <label for="acepto_condiciones">Acepto las condiciones</label>
+
+            <input type="submit" value="Registrar">
+        </form>
+    </div>
+</body>
+</html>
