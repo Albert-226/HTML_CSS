@@ -1,0 +1,64 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px;
+    position: relative;
+    top: 0%;
+}
+.texto{
+    font-size: 14pt;
+    text-align:center;
+    position: relative;
+    top: 0%;
+}
+.column1 {
+    position: relative;     
+    padding: 10PX;
+    height: 80PX;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(89, 176, 235);
+}
+.column2 {
+    position: relative;   
+    padding: 10PX;
+    height: 80PX;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(223, 187, 146);
+}
+.column3 {
+    position: relative;   
+    padding: 10PX;
+    height: 80PX;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 138, 248);
+}
+#destacados .contenedor > div {
+    
+   
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 50%;
+    
+    }
+#ofertas .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    width: 33.3%;
+    }
+
+#disponible .contenedor > div {
+    text-align: center;
+    padding: 10px;
+    border: solid 5px coral;
+    background-color: white;
+    width: 75%;
+    }
